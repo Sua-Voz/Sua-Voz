@@ -1,0 +1,230 @@
+:root {
+	--color-title: #262626;
+	--color-title1: #fff;
+	--color-subtitle: #a62940;
+	--color-bg: #fbf2c0;
+	--color-footer: #bf8069;
+
+	--color-preto: #262626;
+	--color-branco: #fff;
+	--color-marron: #43281c;
+	--color-grena: #a62940;
+	--color-creme: #fbf2c0;
+	--color-maltesse: #bf8069;
+	--color-roxo: #400135;
+	/* --color-preto2: #261f1d; */
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Rights */
+.direitosHero {
+	background: var(--color-maltesse);
+	background-image: url('../img/wave.svg');
+	background-repeat: no-repeat;
+	background-position: bottom;
+	background-size: 100% auto;
+}
+
+.direitosHero__content {
+	display: flex;
+	flex: wrap;
+	justify-content: center;
+	align-items: center;
+}
+.direitosHero__content {
+	font-size: 3rem;
+	color: var(--color-bg);
+	padding: 0 1rem;
+}
+.direitosHero__content-img {
+	width: 300px;
+}
+
+.direitosBody {
+	background: var(--color-bg);
+	padding: 2rem 0;
+}
+
+/* Direitos Content */
+
+.direitos__content {
+	background: var(--color-bg);
+	display: grid;
+	place-content: center;
+	padding-top: 2rem;
+}
+
+.direitos__content-paragraph {
+	margin-bottom: 0;
+	max-width: 800px;
+	min-width: 200px;
+	font-size: 1.2rem;
+	text-align: justify;
+}
+
+/* Diretios Body */
+
+.direitosBodys__container {
+	padding: 2rem 0;
+}
+.direitosBodys__content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 2rem;
+}
+.direitosBodys__title {
+	margin: 1.5rem 0 2rem 0;
+}
+.direitosBodys_card {
+	box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.7);
+	/* -webkit-box-shadow: 1px 1px 10px 0px rgba(255, 255, 255, 0.3);
+	-moz-box-shadow: 1px 1px 10px 0px rgba(255, 255, 255, 0.3); */
+	border-radius: 2rem;
+	width: 330px;
+	height: 360px;
+	background: var(--color-preto);
+	color: var(--color-bg);
+	overflow: hidden;
+	box-shadow: #261f1d;
+}
+
+/* .direitosBodys_card-img {
+	border-radius: 2rem;
+	
+} */
+.direitosBodys_card-img img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.direitosBodys_card-body {
+	padding: 1rem 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.direitosBodys_card-title {
+	font-weight: bold;
+	padding: 0 1rem;
+	text-align: center;
+}
+
+.direitosBodys_card-paragraph {
+	padding: 0 1rem;
+}
+
+.direitosBodys_card-btn {
+	text-decoration: none;
+	border: 3px solid transparent;
+	border-radius: 3rem;
+	background: var(--color-bg);
+	color: var(--color-preto);
+	padding: 0.6rem 1rem;
+	margin-top: 1rem;
+}
+
+.direitosBodys_card-btn:hover {
+	border-color: var(--color-bg);
+	background: var(--color-preto);
+	border-color: var(--color-bg);
+	color: var(--color-bg);
+	font-weight: bold;
+}
+
+/* Modal */
+.modal-content {
+	background-color: #bf8069;
+}
+.modal-body {
+	color: var(--color-preto);
+}
+
+.modal-body h3 {
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: center;
+}
+.modal__close-btn {
+	color: var(--color-preto);
+	padding: 0.5rem 0;
+	text-align: center;
+	font-size: 1.5rem;
+}
+.modal__close-btn:hover {
+	color: var(--color-bg);
+}
+/* Questions */
+
+.questions {
+	text-align: center;
+}
+
+.questions_container {
+	display: grid;
+	gap: 1.5rem;
+	padding: 2rem 0 2rem;
+}
+
+.questions_padding {
+	padding: 0;
+	transition: padding 0.4s;
+	border-radius: 0.7rem;
+	background: var(--color-bg);
+}
+
+.questions_padding-add {
+	padding-bottom: 30px;
+}
+
+.questions_answer {
+	padding: 0 30px;
+	overflow: hidden;
+	transition: transform 0.4s;
+}
+
+.questions_title {
+	cursor: pointer;
+	font-size: 1.3rem;
+	/* font-weight: 600; */
+	display: flex;
+	padding: 20px 0 15px;
+	cursor: pointer;
+	color: var(--color-title);
+	justify-content: space-between;
+}
+.questions_paragraph {
+	text-align: left;
+}
+
+.questions_show {
+	text-align: left;
+	height: 0;
+	transition: height 0.4s;
+	margin-bottom: 0 !important;
+}
+@media (max-width: 600px) {
+	.direitosHero__content-img {
+		min-width: 100px;
+	}
+	.direitosHero__content {
+		font-size: 2rem;
+	}
+}
+@media (max-width: 360px) {
+	.direitosHero__content-img {
+		min-width: 60px;
+	}
+	.direitosHero__content {
+		font-size: 1.5rem;
+	}
+}

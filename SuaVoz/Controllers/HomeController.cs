@@ -1,0 +1,68 @@
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using SuaVoz.Models;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace SuaVoz.Controllers
+{
+    public class HomeController : Controller
+    {
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Termos()
+        {
+            return View();
+        }
+
+        public IActionResult Denuncia()
+        {
+            return View();
+        }
+
+        public IActionResult FaixaEtaria()
+        {
+            return View();
+        }
+
+        public IActionResult Genero()
+        {
+            return View();
+        }
+
+        public IActionResult Regiao()
+        {
+            return View();
+        }
+
+        public IActionResult TipoViolencia()
+        {
+            return View();
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+    }
+}
