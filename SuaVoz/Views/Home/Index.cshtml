@@ -1,230 +1,233 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
-    Layout = "Sua_Voz";
+	ViewData["Title"] = "Home";
+	Layout = "Sua_Voz";
 }
 
-	<!--==================== HERO ====================-->
-			<section class="hero">
-				<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-					<div class="carousel-indicators">
-						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-					</div>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<img src="img/comunity.jpg" alt="comunidade preta" class="carousel__img" />
-							<div class="container">
-								<div class="carousel-caption text-start">
-									<h2>" A revolta é a linguagem daqueles que não são ouvidos."</h2>
-									<blockquote>
-										<p><em>Martin Luther King Jr.</em></p>
-									</blockquote>
-									<a class="btn hover__cta">Faça a sua denúncia !</a>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<img src="img/protesta.jpg" alt="comunidade preta" class="carousel__img" />
-							<div class="container">
-								<div class="carousel-caption">
-									<h2>Sua voz, nosso grito !</h2>
-
-									<a class="btn hover__cta" href="#">Faça a sua denúncia !</a>
-								</div>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<img src="img/protesta1.jpg" alt="comunidade preta" class="carousel__img" />
-							<div class="container">
-								<div class="carousel-caption text-end">
-									<h2>
-										Não lutamos por integração ou por separação.<br />
-										Lutamos para ser Sua Voz
-									</h2>
-
-									<a class="btn hover__cta">Faça a sua denúncia !</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Previous</span>
-					</button>
-					<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Next</span>
-					</button>
-				</div>
-			</section>
-
-			<!--==================== CONQUISTAS ====================-->
-			<section class="conquistas__container">
+<!--==================== HERO ====================-->
+<section class="hero">
+	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+		<div class="carousel-indicators">
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+				aria-label="Slide 1"></button>
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="img/comunity.jpg" alt="comunidade preta" class="carousel__img" />
 				<div class="container">
-					<h2 class="conquistas__title title">Nossos Dados</h2>
-					<div class="conquistas__content">
-						<div class="conquistas__card">
-							<span class="conquistas__card-icon"><i class="fa-solid fa-bullhorn"></i></span>
-							<div class="conquistas__card-number" data-target="1500"></div>
-							<h5 class="conquistas__card-title">Denúncias Feitas</h5>
-						</div>
-						<div class="conquistas__card">
-							<span class="conquistas__card-icon"><i class="fa-solid fa-users"></i></span>
-							<div class="conquistas__card-number" data-target="5000"></div>
-							<h5 class="conquistas__card-title">Usuários</h5>
-						</div>
-						<div class="conquistas__card">
-							<span class="conquistas__card-icon"><i class="fa-solid fa-city"></i></span>
-							<div class="conquistas__card-number" data-target="50"></div>
-							<h5 class="conquistas__card-title">Cidades Alcançadas</h5>
-						</div>
+					<div class="carousel-caption text-start">
+						<h2>" A revolta é a linguagem daqueles que não são ouvidos."</h2>
+						<blockquote>
+							<p><em>Martin Luther King Jr.</em></p>
+						</blockquote>
+						<a class="btn hover__cta">Faça a sua denúncia !</a>
 					</div>
 				</div>
-			</section>
-			<!--==================== START THE FEATURETTES ====================-->
-			<section class="features__container">
-				<div class="container">
-					<h3 class="features__title title">Estatísticas da população negra no Brasil</h3>
-					<div class="features__content">
-						<article class="features__article">
-							<h4 class="features__article-title order-lg-0 order-1">No Brasil, de cada sete indivíduos assassinados cinco são negros.</h4>
-							<img src="img/grafico1.png" alt="evolução das taxas de homicios de negros" class="features__article-img order-lg-1 order-0" />
-						</article>
-						<article class="features__article">
-							<img src="img/grafico2.png" alt="evolução das taxas de homicios de negros" class="features__article-img" />
-							<h4 class="features__article-title">Diferenças de letalidade contra os afrodescendentes são mais dilatadas no período da juventude (entre 15 e 29 anos).</h4>
-						</article>
-					</div>
-				</div>
-			</section>
-
-			<!--==================== Eventos ====================-->
-			<section class="lives__container" id="custom-cards">
-				<div class="container">
-					<h2 class="title-light lives__title">Assista Nossas Lives</h2>
-					<div class="lives__content">
-						<article class="lives_card">
-							<picture class="lives_card-img">
-								<img src="img/Djamila-Ribeiro.jpg" alt="djamila  ribeiro" class="lives_card-img" />
-							</picture>
-							<div class="lives_card-body">
-								<h4 class="lives_card-title">Djamila Ribeiro</h4>
-								<p class="lives_card-paragraph">A filósofa brasileira abre espaço para troca de ideias e uma breve resenha do seu livro "Pequeno manual antirracista".</p>
-								<span class="text-center"
-									><strong>19/01 às 20:00 hrs</strong> <br />
-									<i class="fa-brands fa-youtube fa-xl"></i>
-									<i class="fa-brands fa-twitch fa-xl"></i
-								></span>
-								<a href="#" class="lives_card-btn">Confirme sua presença</a>
-							</div>
-						</article>
-						<article class="lives_card">
-							<picture class="lives_card-img">
-								<img src="img/silvioalmeida.jpg" alt="silvio almeida" class="lives_card-img" />
-							</picture>
-							<div class="lives_card-body">
-								<h4 class="lives_card-title">Silvio de Almeida</h4>
-								<p class="lives_card-paragraph">O professor fala sobre racismo estrutural, como ele se perpetua na sociedade e quais as estratégias de enfrentamento.</p>
-								<span class="text-center"
-									><strong>20/02 às 20:45 hrs</strong> <br />
-									<i class="fa-brands fa-youtube fa-xl"></i>
-									<i class="fa-brands fa-twitch fa-xl"></i
-								></span>
-
-								<a href="#" class="lives_card-btn"> Confirme sua presença</a>
-							</div>
-						</article>
-						<article class="lives_card">
-							<picture class="lives_card-img">
-								<img src="img/sueli-carneiro.jpg" alt="djamila  ribeiro" class="lives_card-img" />
-							</picture>
-							<div class="lives_card-body">
-								<h4 class="lives_card-title">Sueli Carneiro</h4>
-								<p class="lives_card-paragraph">Uma das principais autoras do feminismo negro no Brasil, fala sobre sua história e a importância do feminismo negro na sociedade.</p>
-								<span class="text-center"
-									><strong>03/03 às 19:30 hrs</strong> <br />
-									<i class="fa-brands fa-youtube fa-xl"></i>
-									<i class="fa-brands fa-twitch fa-xl"></i
-								></span>
-
-								<a href="#" class="lives_card-btn">Confirme sua presença</a>
-							</div>
-						</article>
-					</div>
-				</div>
-			</section>
-		
-		<!--==================== PARCEIROS ====================-->
-		<section class="parceiros__container">
-			<div class="container">
-				<div class="parceiros__header">
-					<h3 class="title">Parcerias de Sucesso</h3>
-					<h6 class="parceiros__paragraph">Conheça a nossa rede de apoiadores, que nos ajudam a fazer a diferença!</h6>
-				</div>
-
-				<ul class="parceiros__body">
-					<li class="parceiros_items">
-						<a href="#" class="parceiros__links">
-							<img src="img/parceiros/logo-recode-azul.png" alt="recode" class="parceiros__img" />
-						</a>
-					</li>
-					<li class="parceiros_items">
-						<a href="#" class="parceiros__links">
-							<img src="img/parceiros/prefeiturarj .png" alt="prefeiturarj" class="parceiros__img" />
-						</a>
-					</li>
-					<li class="parceiros_items">
-						<a href="#" class="parceiros__links">
-							<img src="img/parceiros/cidadeSP.png" alt="sp" class="parceiros__img" />
-						</a>
-					</li>
-					<li class="parceiros_items">
-						<a href="#" class="parceiros__links">
-							<img src="img/parceiros/accenture-logo-e1605101884317.png" alt="accenture" class="parceiros__img" />
-						</a>
-					</li>
-					<li class="parceiros_items">
-						<a href="#" class="parceiros__links">
-							<img src="img/parceiros/brz_dir_logo_UNESCO_coop_por-e1605100963948.png" alt="unesco" class="parceiros__img" />
-						</a>
-					</li>
-					<li class="parceiros_items">
-						<a href="#" class="parceiros__links">
-							<img src="img/parceiros/c6-bank-logo-e1605101157367.png" alt="c6 bank" class="parceiros__img" />
-						</a>
-					</li>
-					<li class="parceiros_items">
-						<a href="#" class="parceiros__links">
-							<img src="img/parceiros/Meta-Logo.png" alt="" />
-						</a>
-					</li>
-
-					<li class="parceiros_items">
-						<a href="#" class="parceiros__links">
-							<img src="img/parceiros/linx-1-119x70.png" alt="linx" class="parceiros__img" />
-						</a>
-					</li>
-					<li class="parceiros_items">
-						<a href="#" class="parceiros__links"> <img src="img/parceiros/itau.webp" alt="rede bahia" class="parceiros__img" /> </a>
-					</li>
-					<li class="parceiros_items">
-						<a href="#" class="parceiros__links">
-							<img src="img/parceiros/microsoft-logo-2-e1605100921916.png" alt="microsoft" class="parceiros__img" />
-						</a>
-					</li>
-				</ul>
 			</div>
-		</section>
-		<!--==================== FORM CONTACT ====================-->
-		<section class="contact">
-			<form class="form" action="https://formspree.io/f/xrgjgyed" method="POST">
-				<div class="form_container">
-					<h2 class="form_title title-light">Seja Nosso Parceiro</h2>
-					<input type="text" class="form_input" placeholder="Nome" name="name" />
-					<input type="email" class="form_input" placeholder="Email" name="email" />
-					<textarea class="form_input form_input-message" placeholder="Escreva seu messagem" name="message"></textarea>
-					<input type="submit" class="form_cta" value="Enviar" />
+			<div class="carousel-item">
+				<img src="img/protesta.jpg" alt="comunidade preta" class="carousel__img" />
+				<div class="container">
+					<div class="carousel-caption">
+						<h2>Sua voz, nosso grito !</h2>
+
+						<a class="btn hover__cta" href="#">Faça a sua denúncia !</a>
+					</div>
 				</div>
-			</form>
-		</section>
+			</div>
+			<div class="carousel-item">
+				<img src="img/protesta1.jpg" alt="comunidade preta" class="carousel__img" />
+				<div class="container">
+					<div class="carousel-caption text-end">
+						<h2>
+							Não lutamos por integração ou por separação.<br />
+							Lutamos para ser Sua Voz
+						</h2>
+
+						<a class="btn hover__cta">Faça a sua denúncia !</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+</section>
+
+<!--==================== CONQUISTAS ====================-->
+<section class="conquistas__container">
+	<div class="container">
+		<h2 class="conquistas__title title">Nossos Dados</h2>
+		<div class="conquistas__content">
+			<div class="conquistas__card">
+				<span class="conquistas__card-icon"><i class="fa-solid fa-bullhorn"></i></span>
+				<div class="conquistas__card-number" data-target="1500"></div>
+				<h5 class="conquistas__card-title">Denúncias Feitas</h5>
+			</div>
+			<div class="conquistas__card">
+				<span class="conquistas__card-icon"><i class="fa-solid fa-users"></i></span>
+				<div class="conquistas__card-number" data-target="5000"></div>
+				<h5 class="conquistas__card-title">Usuários</h5>
+			</div>
+			<div class="conquistas__card">
+				<span class="conquistas__card-icon"><i class="fa-solid fa-city"></i></span>
+				<div class="conquistas__card-number" data-target="50"></div>
+				<h5 class="conquistas__card-title">Cidades Alcançadas</h5>
+			</div>
+		</div>
+	</div>
+</section>
+<!--==================== START THE FEATURETTES ====================-->
+<section class="features__container">
+	<div class="container">
+		<h3 class="features__title title">Estatísticas da população negra no Brasil</h3>
+		<div class="features__content">
+			<article class="features__article">
+				<h4 class="features__article-title order-lg-0 order-1">No Brasil, de cada sete indivíduos assassinados cinco são
+					negros.</h4>
+				<img src="img/grafico1.png" alt="evolução das taxas de homicios de negros"
+					class="features__article-img order-lg-1 order-0" />
+			</article>
+			<article class="features__article">
+				<img src="img/grafico2.png" alt="evolução das taxas de homicios de negros" class="features__article-img" />
+				<h4 class="features__article-title">Diferenças de letalidade contra os afrodescendentes são mais dilatadas no
+					período da juventude (entre 15 e 29 anos).</h4>
+			</article>
+		</div>
+	</div>
+</section>
+
+<!--==================== Eventos ====================-->
+<section class="lives__container" id="custom-cards">
+	<div class="container">
+		<h2 class="title-light lives__title">Assista Nossas Lives</h2>
+		<div class="lives__content">
+			<article class="lives_card">
+				<picture class="lives_card-img">
+					<img src="img/Djamila-Ribeiro.jpg" alt="djamila  ribeiro" class="lives_card-img" />
+				</picture>
+				<div class="lives_card-body">
+					<h4 class="lives_card-title">Djamila Ribeiro</h4>
+					<p class="lives_card-paragraph">A filósofa brasileira abre espaço para troca de ideias e uma breve resenha do
+						seu livro "Pequeno manual antirracista".</p>
+					<span class="text-center"><strong>19/01 às 20:00 hrs</strong> <br />
+						<i class="fa-brands fa-youtube fa-xl"></i>
+						<i class="fa-brands fa-twitch fa-xl"></i></span>
+					<a href="#" class="lives_card-btn">Confirme sua presença</a>
+				</div>
+			</article>
+			<article class="lives_card">
+				<picture class="lives_card-img">
+					<img src="img/silvioalmeida.jpg" alt="silvio almeida" class="lives_card-img" />
+				</picture>
+				<div class="lives_card-body">
+					<h4 class="lives_card-title">Silvio de Almeida</h4>
+					<p class="lives_card-paragraph">O professor fala sobre racismo estrutural, como ele se perpetua na sociedade e
+						quais as estratégias de enfrentamento.</p>
+					<span class="text-center"><strong>20/02 às 20:45 hrs</strong> <br />
+						<i class="fa-brands fa-youtube fa-xl"></i>
+						<i class="fa-brands fa-twitch fa-xl"></i></span>
+
+					<a href="#" class="lives_card-btn"> Confirme sua presença</a>
+				</div>
+			</article>
+			<article class="lives_card">
+				<picture class="lives_card-img">
+					<img src="img/sueli-carneiro.jpg" alt="djamila  ribeiro" class="lives_card-img" />
+				</picture>
+				<div class="lives_card-body">
+					<h4 class="lives_card-title">Sueli Carneiro</h4>
+					<p class="lives_card-paragraph">Uma das principais autoras do feminismo negro no Brasil, fala sobre sua
+						história e a importância do feminismo negro na sociedade.</p>
+					<span class="text-center"><strong>03/03 às 19:30 hrs</strong> <br />
+						<i class="fa-brands fa-youtube fa-xl"></i>
+						<i class="fa-brands fa-twitch fa-xl"></i></span>
+
+					<a href="#" class="lives_card-btn">Confirme sua presença</a>
+				</div>
+			</article>
+		</div>
+	</div>
+</section>
+
+<!--==================== PARCEIROS ====================-->
+<section class="parceiros__container">
+	<div class="container">
+		<div class="parceiros__header">
+			<h3 class="title">Parcerias de Sucesso</h3>
+			<h6 class="parceiros__paragraph">Conheça a nossa rede de apoiadores, que nos ajudam a fazer a diferença!</h6>
+		</div>
+
+		<ul class="parceiros__body">
+			<li class="parceiros_items">
+				<a href="#" class="parceiros__links">
+					<img src="img/parceiros/logo-recode-azul.png" alt="recode" class="parceiros__img" />
+				</a>
+			</li>
+			<li class="parceiros_items">
+				<a href="#" class="parceiros__links">
+					<img src="img/parceiros/prefeiturarj .png" alt="prefeiturarj" class="parceiros__img" />
+				</a>
+			</li>
+			<li class="parceiros_items">
+				<a href="#" class="parceiros__links">
+					<img src="img/parceiros/cidadeSP.png" alt="sp" class="parceiros__img" />
+				</a>
+			</li>
+			<li class="parceiros_items">
+				<a href="#" class="parceiros__links">
+					<img src="img/parceiros/accenture-logo-e1605101884317.png" alt="accenture" class="parceiros__img" />
+				</a>
+			</li>
+			<li class="parceiros_items">
+				<a href="#" class="parceiros__links">
+					<img src="img/parceiros/brz_dir_logo_UNESCO_coop_por-e1605100963948.png" alt="unesco"
+						class="parceiros__img" />
+				</a>
+			</li>
+			<li class="parceiros_items">
+				<a href="#" class="parceiros__links">
+					<img src="img/parceiros/c6-bank-logo-e1605101157367.png" alt="c6 bank" class="parceiros__img" />
+				</a>
+			</li>
+			<li class="parceiros_items">
+				<a href="#" class="parceiros__links">
+					<img src="img/parceiros/Meta-Logo.png" alt="" />
+				</a>
+			</li>
+
+			<li class="parceiros_items">
+				<a href="#" class="parceiros__links">
+					<img src="img/parceiros/linx-1-119x70.png" alt="linx" class="parceiros__img" />
+				</a>
+			</li>
+			<li class="parceiros_items">
+				<a href="#" class="parceiros__links"> <img src="img/parceiros/itau.webp" alt="rede bahia"
+						class="parceiros__img" /> </a>
+			</li>
+			<li class="parceiros_items">
+				<a href="#" class="parceiros__links">
+					<img src="img/parceiros/microsoft-logo-2-e1605100921916.png" alt="microsoft" class="parceiros__img" />
+				</a>
+			</li>
+		</ul>
+	</div>
+</section>
+<!--==================== FORM CONTACT ====================-->
+<section class="contact">
+	<form class="form" action="https://formspree.io/f/xrgjgyed" method="POST">
+		<div class="form_container">
+			<h2 class="form_title title-light">Seja Nosso Parceiro</h2>
+			<input type="text" class="form_input" placeholder="Nome" name="name" />
+			<input type="email" class="form_input" placeholder="Email" name="email" />
+			<textarea class="form_input form_input-message" placeholder="Escreva seu messagem" name="message"></textarea>
+			<input type="submit" class="form_cta" value="Enviar" />
+		</div>
+	</form>
+</section>
