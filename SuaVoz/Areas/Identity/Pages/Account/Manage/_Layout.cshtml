@@ -1,7 +1,8 @@
 ﻿@{
     if (ViewData.TryGetValue("ParentLayout", out var parentLayout))
     {
-        Layout = (string)parentLayout;
+        @* Layout = (string)parentLayout; *@
+        Layout = "crud";
     }
     else
     {
@@ -9,20 +10,22 @@
     }
 }
 
-<h2>Gerenciamento de Perfil</h2>
+<div class="container">
+    <h2 class="title-light">Gerenciamento de Perfil</h2>
 
-<div>
-    <hr />
-    <div class="row">
-        <div class="col-md-3">
-            <partial name="_ManageNav" />
-        </div>
-        <div class="col-md-9">
-            @RenderBody()
+    <div>
+        <hr />
+        <div class="row">
+            <div class="col-md-3">
+                <partial name="_ManageNav" />
+            </div>
+            <div class="col-md-9">
+                @RenderBody()
+            </div>
         </div>
     </div>
 </div>
 
 @section Scripts {
-    @RenderSection("Scripts", required: false)
+@RenderSection("Scripts", required: false)
 }

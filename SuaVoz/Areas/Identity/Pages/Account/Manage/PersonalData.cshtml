@@ -9,21 +9,25 @@
 
 <div class="row">
     <div class="col-md-6">
-        <p>
-            Sua conta contém dados pessoais que você nos forneceu. Esta página permite que você baixe ou exclua esses dados.
+        <p style="color: #fbf2c0">
+            Sua conta contém dados pessoais que você nos forneceu. Esta página permite que você baixe ou exclua esses
+            dados.
         </p>
-        <p>
+        <p style="color: #bf8069">
             <strong>A exclusão desses dados removerá permanentemente sua conta, e isso não pode ser recuperado.</strong>
         </p>
-        <form id="download-data" asp-page="DownloadPersonalData" method="post" class="form-group">
-            <button class="btn btn-primary" type="submit">Baixar</button>
-        </form>
-        <p>
-            <a id="delete" asp-page="DeletePersonalData" class="btn btn-primary">Excluir</a>
-        </p>
+        <div class="">
+            <form id="download-data" asp-page="DownloadPersonalData" method="post" class="form-group">
+                <button class="btn btn-primary" type="submit">Baixar</button>
+            </form>
+            <p>
+                <a id="delete" asp-page="DeletePersonalData" class="btn btn_excluir btn-danger "
+                    style="margin-left:1rem;">Excluir</a>
+            </p>
+        </div>
     </div>
 </div>
 
 @section Scripts {
-    <partial name="_ValidationScriptsPartial" />
+<partial name="_ValidationScriptsPartial" />
 }

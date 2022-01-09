@@ -53,9 +53,23 @@ ul {
 	overflow: hidden;
 }
 
-.activo {
-	color: #fff;
+button#logout {
+	background: transparent;
+	/* color: rgba(255,255,255,.55); */
+	color: var(--color-branco);
+	border: 2px solid var(--color-branco);
+	outline: none;
+	border-radius: 1rem;
+	width: max-content;
 }
+button#logout:hover {
+	background: var(--color-maltesse);
+	/* color: rgba(255,255,255,.55); */
+	color: var(--color-preto);
+	border: 2px solid var(--color-preto);
+	outline: none;
+}
+
 /* Footer */
 
 .footer__container {
