@@ -1,0 +1,80 @@
+:root {
+	--color-title: #262626;
+	--color-title-light: #fbf2c0;
+	--color-subtitle: #a62940;
+	--color-bg: #fbf2c0;
+	--color-footer: #bf8069;
+
+	--color-preto: #262626;
+	--color-branco: #fff;
+	--color-marron: #43281c;
+	--color-grena: #a62940;
+	--color-creme: #fbf2c0;
+	--color-maltesse: #bf8069;
+	--color-roxo: #400135;
+	--color-preto2: #261f1d;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.main {
+	margin-top: 75px;
+	padding: 2rem 0;
+	background: var(--color-preto);
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23bf8069' fill-opacity='0.42'%3E%3Cpath fill-rule='evenodd' d='M11 0l5 20H6l5-20zm42 31a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM0 72h40v4H0v-4zm0-8h31v4H0v-4zm20-16h20v4H20v-4zM0 56h40v4H0v-4zm63-25a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM53 41a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-30 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-28-8a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zM56 5a5 5 0 0 0-10 0h10zm10 0a5 5 0 0 1-10 0h10zm-3 46a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm10 0a3 3 0 1 0 0-6 3 3 0 0 0 0 6zM21 0l5 20H16l5-20zm43 64v-4h-4v4h-4v4h4v4h4v-4h4v-4h-4zM36 13h4v4h-4v-4zm4 4h4v4h-4v-4zm-4 4h4v4h-4v-4zm8-8h4v4h-4v-4z'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.loginCadastro__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loginCadastro__card {
+	background: var(--color-bg);
+	border: 3px solid var(--color-maltesse);
+	border-radius: 2rem;
+	width: 550px;
+	min-width: 250px;
+	overflow: hidden;
+}
+
+div.login-logout-tab div.card-header {
+	padding: 0px 0px 12px 0px;
+}
+
+div.login-logout-tab ul.nav-tabs {
+	margin: 0px 0px -12px 0px;
+}
+
+div.login-logout-tab li.nav-item {
+	width: 50%;
+}
+
+div.login-logout-tab a.nav-link {
+	background: var(--color-bg);
+	font-size: 25px;
+	font-weight: 600;
+	color: var(--color-maltesse);
+	text-align: center;
+	outline: none;
+}
+.nav-link.active {
+	background: var(--color-maltesse) !important;
+	color: var(--color-bg) !important;
+	border: none;
+	outline: none;
+}
+div.card-content {
+	padding: 10px 20px;
+}
+
+/*login form*/
+div.login-form-icon {
+	text-align: center;
+}

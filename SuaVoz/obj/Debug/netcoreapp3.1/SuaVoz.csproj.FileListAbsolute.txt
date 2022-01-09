@@ -345,7 +345,6 @@ C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\bin\Debu
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.csproj.AssemblyReference.cache
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.AssemblyInfoInputs.cache
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.AssemblyInfo.cs
@@ -429,3 +428,4 @@ C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debu
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.pdb
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.genruntimeconfig.cache
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\crud.cshtml.g.cs
+C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.csproj.AssemblyReference.cache

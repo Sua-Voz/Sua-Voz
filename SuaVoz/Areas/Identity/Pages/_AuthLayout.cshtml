@@ -1,27 +1,27 @@
 ﻿@{
-    Layout = "/Views/Shared/_Layout.cshtml";
+    Layout = "/Views/Shared/crud.cshtml";
 }
 
-<div class="row">
-    <div class="col-md-6 offset-md-3">
-        <div class="card login-logout-tab">
-            <div class="card-header">
-                <ul class="nav nav-tabs card-header-tabs">
-                    <li class="nav-item">
-                        <a class="nav-link" href='/Identity/Account/Login'>Entrar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href='/Identity/Account/Register'>Cadastrar</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="card-content">
-                <div class="col-md-12">
-                    @RenderBody()
-                </div>
+<div class="container loginCadastro__container ">
+    @* <div class=""> *@
+    <div class="card login-logout-tab loginCadastro__card">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" href='/Identity/Account/Login'>Entrar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href='/Identity/Account/Register'>Criar Conta</a>
+                </li>
+            </ul>
+        </div>
+        <div class="card-content">
+            <div class="col-md-12">
+                @RenderBody()
             </div>
         </div>
     </div>
+    @* </div> *@
 </div>
 
 @section Scripts{

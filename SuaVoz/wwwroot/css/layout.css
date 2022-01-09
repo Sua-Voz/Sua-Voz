@@ -72,7 +72,7 @@ ul {
 .footer__header {
 	display: flex;
 	flex-direction: column;
-	color: var(--color-title1);
+	color: var(--color-title-light);
 }
 .footer__body {
 	display: flex;

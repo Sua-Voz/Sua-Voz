@@ -46,29 +46,30 @@ namespace SuaVoz.Areas.Identity.Pages.Account
 
         public class InputModel
         {
-            [Required]
+            [Required(ErrorMessage = "O campo Nome é obrigatório.")]
             [DataType(DataType.Text)]
             [Display(Name = "Nome")]
             public string Nome { get; set; }
 
-            [Required]
+            [Required(ErrorMessage = "O campo Sobrenome é obrigatório.")]
             [DataType(DataType.Text)]
             [Display(Name = "Sobrenome")]
             public string Sobrenome { get; set; }
 
-            [Required]
+            [Required(ErrorMessage = "O campo Email é obrigatório.")]
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
 
-            [Required]
-            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            [Required(ErrorMessage = "O campo Senha é obrigatório.")]
+            [StringLength(100, ErrorMessage = "O {0} deve ter pelo menos {2} e no máximo {1} caracteres", MinimumLength = 6)]
             [DataType(DataType.Password)]
-            [Display(Name = "Password")]
+            [Display(Name = "Senha")]
             public string Password { get; set; }
 
+            [Required(ErrorMessage = "O campo Senha é obrigatório.")]
             [DataType(DataType.Password)]
-            [Display(Name = "Confirm password")]
+            [Display(Name = "Confirmar Senha")]
             [Compare("Password", ErrorMessage = "A confirmação da senha não confere.")]
             public string ConfirmPassword { get; set; }
         }
@@ -94,7 +95,7 @@ namespace SuaVoz.Areas.Identity.Pages.Account
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User created a new account with password.");
+                    _logger.LogInformation("O usuário criou uma nova conta com senha.");
 
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
