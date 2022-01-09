@@ -2,7 +2,7 @@
 
 @{
     ViewData["Title"] = "Index";
-    Layout = "~/Views/Shared/_Layout.cshtml";
+    Layout = "crud";
 }
 
 <h1>Index</h1>
@@ -38,35 +38,36 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Genero.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FaixaEtaria.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Regiao.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.TipoViolencia.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataOcorrencia)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Relato)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Genero.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FaixaEtaria.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Regiao.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TipoViolencia.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DataOcorrencia)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Relato)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

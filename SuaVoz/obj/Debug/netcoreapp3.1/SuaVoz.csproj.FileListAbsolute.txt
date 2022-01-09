@@ -428,3 +428,4 @@ C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debu
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.dll
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.pdb
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.genruntimeconfig.cache
+C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\crud.cshtml.g.cs

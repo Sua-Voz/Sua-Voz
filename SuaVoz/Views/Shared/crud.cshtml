@@ -51,6 +51,9 @@
 							<a class="nav-link" asp-controller="Home" asp-action="Rights"> <i
 									class="fa-solid fa-book-open-reader"></i> Seus Direitos </a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark" asp-area="" asp-controller="Denuncia" asp-action="Index">Denuncia</a>
+						</li>
 						<partial name="_LoginPartial.cshtml" />
 					</ul>
 				</div>
@@ -94,7 +97,7 @@
 
 	<script src="~/js/main.js"></script>
 	<script src="~/js/rights.js"></script>
-
+	@RenderSection("Scripts", required: false)
 </body>
 
 </html>
