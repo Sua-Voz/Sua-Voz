@@ -345,6 +345,7 @@ C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\bin\Debu
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.csproj.AssemblyReference.cache
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.AssemblyInfoInputs.cache
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.AssemblyInfo.cs
@@ -398,8 +399,10 @@ C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debu
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Genero\Details.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Genero\Edit.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Genero\Index.cshtml.g.cs
+C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Home\Rights.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Home\Termos.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Regiao\Create.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Regiao\Delete.cshtml.g.cs
@@ -407,6 +410,7 @@ C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debu
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Regiao\Edit.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Regiao\Index.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Sua_Voz.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -424,7 +428,3 @@ C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debu
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.dll
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.pdb
 C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.genruntimeconfig.cache
-C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\SuaVoz.csproj.AssemblyReference.cache
-C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Sua_Voz.cshtml.g.cs
-C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Home\about.cshtml.g.cs
-C:\Users\alexl\OneDrive\Documentos\SuaVoz_back_08-01-2022\SuaVoz\SuaVoz\obj\Debug\netcoreapp3.1\Razor\Views\Home\rights.cshtml.g.cs
