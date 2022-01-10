@@ -1,7 +1,7 @@
 ﻿@model SuaVoz.Models.Denuncia
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Publicar";
     Layout = "";
 }
 <!DOCTYPE html>
@@ -11,6 +11,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - SuaVoz</title>
+    <link rel="shortcut icon" href="~/img/favicon.png" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
@@ -26,7 +27,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="~/css/layout.css" />
-    <link rel="stylesheet" href="~/css/denuncia.css" />
+    <link rel="stylesheet" href="~/css/createDenuncia.css" />
 </head>
 
 <body>
@@ -63,85 +64,51 @@
         </nav>
     </header>
     <main role="main" class="main">
-        <div class="denuncia">
-            <div id="title-area">
-                <h2>Denúncia</h2>
-            </div>
-            <form asp-action="Create" class="form-denuncia">
-
-                <section class="middle-1">
-                    <div class="controla-largura">
+        <div class="container denuncia__container">
+            <div class="denuncia__content">
+                <h2 class="title">Denúncia</h2>
+                <form asp-action="Create" class="denuncia__form">
+                    <section class="form_inputs">
                         <label>
                             Nome <br />
-                            <input asp-for="Nome" type="text" class="inputs" placeholder="Opcional" />
+                            <input asp-for="Nome" type="text" placeholder="..." class="form_inputs-nome" />
                         </label>
                         <label>
-                            Genero <br>
-                            <select asp-for="GeneroId" asp-items="ViewBag.GeneroId" style="
-              background-color: transparent; 
-               border-left: none; 
-               border-top: none;
-               border-right: none;
-                width: 100%;
-                height: 40px;
-              "></select>
-                        </label>
-                        <label class=" centers">
-                            Faixa Etaria <br>
-                            <select asp-for="FaixaEtariaId" asp-items="ViewBag.FaixaEtariaId" style="
-              background-color: transparent; 
-               border-left: none; 
-               border-top: none;
-               border-right: none;
-                width: 100%;
-                height: 40px;
-              "></select>
-                        </label>
-                    </div>
-                </section>
-                <section class="middle-2">
-                    <div class="controla-largura">
-                        <label>
-                            Região <br>
-                            <select asp-for="RegiaoId" asp-items="ViewBag.RegiaoId" style="
-            background-color: transparent; 
-             border-left: none; 
-             border-top: none;
-             border-right: none;
-              width: 100%;
-              height: 40px;
-            "></select>
+                            Genero <br />
+                            <select asp-for="GeneroId" asp-items="ViewBag.GeneroId" class="form_select"></select>
                         </label>
                         <label>
-                            Tipo de violência <br>
-                            <select asp-for="TipoViolenciaId" asp-items="ViewBag.TipoViolenciaId" style="
-              background-color: transparent; 
-               border-left: none; 
-               border-top: none;
-               border-right: none;
-                width: 100%;
-                height: 40px;
-              "></select>
+                            Faixa Etaria <br />
+                            <select asp-for="FaixaEtariaId" asp-items="ViewBag.FaixaEtariaId"
+                                class="form_select"></select>
                         </label>
-                        <label class=" centers">
-                            Data da ocorrencia <br>
-                            <input asp-for="DataOcorrencia" class="inputs" />
+                        <label>
+                            Região <br />
+                            <select asp-for="RegiaoId" asp-items="ViewBag.RegiaoId" class="form_select"></select>
                         </label>
-                    </div>
-                </section>
-                <section class="final">
-                    <h3>Relato</h3>
-                    <textarea asp-for="Relato" rows="20" id="textarea" placeholder=" Digite aqui seu relato..."
-                        required>
-      </textarea>
-                    <span asp-validation-for="Relato" class="text-danger"></span>
+                        <label>
+                            Tipo de violência <br />
+                            <select asp-for="TipoViolenciaId" asp-items="ViewBag.TipoViolenciaId"
+                                class="form_select"></select>
+                        </label>
+                        <label>
+                            Data da ocorrencia <br />
+                            <input asp-for="DataOcorrencia" class="form_inputs-data" />
+                        </label>
+                    </section>
+                    <section class="form_relato">
+                        <h3>Relato</h3>
+                        <textarea asp-for="Relato" id="textarea" placeholder=" Digite aqui seu relato..."> </textarea>
+                        <span asp-validation-for="Relato"></span>
 
-                    <div class="Create__btn">
-                        <a asp-action="Details"><input type="submit" value="Publicar" /></a>
-                        <a asp-action="Index" id="botao-voltar">Voltar</a>
-                    </div>
-                </section>
-            </form>
+                        <div class="denuncia__btns">
+
+                            <input type="submit" value="Publicar" class="denuncia__btns-btn" />
+                            <button asp-action="Index" id="botao-voltar" class="denuncia__btns-btn">Voltar</button>
+                        </div>
+                    </section>
+                </form>
+            </div>
         </div>
     </main>
 
