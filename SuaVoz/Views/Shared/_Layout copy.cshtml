@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,14 +7,13 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SuaVoz</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
@@ -24,24 +22,19 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Denuncia"
-                                asp-action="Index">Denuncia</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Denuncia" asp-action="Index">Denuncia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="FaixaEtaria"
-                                asp-action="Index">Faixa Etaria</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="FaixaEtaria" asp-action="Index">Faixa Etaria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Genero"
-                                asp-action="Index">Genero</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Genero" asp-action="Index">Genero</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Regiao"
-                                asp-action="Index">Regiao</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Regiao" asp-action="Index">Regiao</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="TipoViolencia"
-                                asp-action="Index">Tipo de Violencia</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="TipoViolencia" asp-action="Index">Tipo de Violencia</a>
                         </li>
                     </ul>
                 </div>
@@ -49,16 +42,16 @@
             </div>
         </nav>
     </header>
-    <div class="">
-        <main role="main" class="">
+    <div class="container">
+        <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-    <footer class=" footer text-muted">
+    <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - SuaVoz - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a> /
-            <a asp-area="" asp-controller="Home" asp-action="Termos">Termos de Uso</a>
+            &copy; 2022 - SuaVoz - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a> / 
+                                   <a asp-area="" asp-controller="Home" asp-action="Termos">Termos de Uso</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
@@ -66,5 +59,4 @@
     <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
 </body>
-
 </html>
