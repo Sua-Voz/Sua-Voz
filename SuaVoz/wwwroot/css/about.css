@@ -147,7 +147,7 @@
 
 @media (max-width: 1000px) {
 	.heroRights__body {
-		max-width: 400px;
+		max-width: 100%;
 	}
 	.aboutProcesso {
 		flex-wrap: wrap-reverse;

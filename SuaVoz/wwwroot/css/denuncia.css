@@ -60,9 +60,9 @@ div.area-denuncia {
 	border: 2px solid var(--color-maltesse);
 	border-radius: 1rem;
 	padding: 0.4rem;
-
 	font-weight: 600;
 	margin: 1rem;
+	text-align: center;
 }
 #denuncia_btn:hover {
 	background: var(--color-bg);
