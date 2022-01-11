@@ -46,7 +46,7 @@ div.area-denuncia {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	overflow: scroll;
+	overflow: auto;
 }
 #btn_container {
 	display: flex;
@@ -76,11 +76,12 @@ div.area-denuncia {
 	background: var(--color-maltesse);
 	margin: auto;
 	border-radius: 0.5rem;
-
 	width: 100%;
 	max-width: 600px;
 	min-width: 100px;
-	overflow: scroll;
+	overflow: auto;
+	display: flex;
+	flex-direction: column-reverse;
 }
 
 .create-post-teste {

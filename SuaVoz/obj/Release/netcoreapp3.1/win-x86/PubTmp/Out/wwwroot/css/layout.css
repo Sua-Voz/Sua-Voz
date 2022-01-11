@@ -1,0 +1,130 @@
+:root {
+	--color-title: #262626;
+	--color-title-light: #fbf2c0;
+	--color-subtitle: #a62940;
+	--color-bg: #fbf2c0;
+	--color-footer: #bf8069;
+
+	--color-preto: #262626;
+	--color-branco: #fff;
+	--color-marron: #43281c;
+	--color-grena: #a62940;
+	--color-creme: #fbf2c0;
+	--color-maltesse: #bf8069;
+	--color-roxo: #400135;
+	--color-preto2: #261f1d;
+}
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+.title {
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 900;
+	color: var(--color-title);
+	text-align: center;
+}
+.title-light {
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 900;
+	color: var(--color-title-light);
+	text-align: center;
+}
+ul {
+	padding: 0 !important;
+}
+.main {
+	margin-top: 75px;
+}
+/* Navbar */
+.navbar__container {
+	background: var(--color-preto);
+	box-shadow: 0 8px 10px -5px rgba(0, 0, 0, 0.7);
+}
+.main {
+	margin-top: 76px;
+	overflow: hidden;
+}
+
+button#logout {
+	background: transparent;
+	/* color: rgba(255,255,255,.55); */
+	color: var(--color-branco);
+	border: 2px solid var(--color-branco);
+	outline: none;
+	border-radius: 1rem;
+	width: max-content;
+}
+button#logout:hover {
+	background: var(--color-maltesse);
+	/* color: rgba(255,255,255,.55); */
+	color: var(--color-preto);
+	border: 2px solid var(--color-preto);
+	outline: none;
+}
+
+/* Footer */
+
+.footer__container {
+	background: var(--color-preto);
+}
+.footer__content {
+	padding: 1rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+.footer__header {
+	display: flex;
+	flex-direction: column;
+	color: var(--color-title-light);
+}
+.footer__body {
+	display: flex;
+	gap: 1rem;
+}
+.footer__item {
+	list-style: none;
+}
+.footer__links {
+	color: var(--color-creme);
+}
+.footer__links:hover {
+	color: var(--color-maltesse);
+}
+.social__media {
+	font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+	.title {
+		font-size: 2rem;
+		font-weight: 800;
+	}
+	.title-light {
+		font-size: 2rem;
+		font-weight: 800;
+	}
+	/* footer */
+	.footer__content {
+		justify-content: center;
+	}
+	.social__media {
+		font-size: 1.5rem;
+	}
+}
+
+@media (max-width: 243px) {
+	.main {
+		margin-top: 115px;
+	}
+}

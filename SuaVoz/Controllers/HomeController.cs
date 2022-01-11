@@ -42,30 +42,8 @@ namespace SuaVoz.Controllers
       return View();
     }
 
-    public IActionResult Denuncia()
-    {
-      return View();
-    }
 
-    public IActionResult FaixaEtaria()
-    {
-      return View();
-    }
 
-    public IActionResult Genero()
-    {
-      return View();
-    }
-
-    public IActionResult Regiao()
-    {
-      return View();
-    }
-
-    public IActionResult TipoViolencia()
-    {
-      return View();
-    }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
