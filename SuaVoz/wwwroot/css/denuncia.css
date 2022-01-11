@@ -80,8 +80,6 @@ div.area-denuncia {
 	max-width: 600px;
 	min-width: 100px;
 	overflow: auto;
-	display: flex;
-	flex-direction: column-reverse;
 }
 
 .create-post-teste {
