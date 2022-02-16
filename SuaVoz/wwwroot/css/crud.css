@@ -35,6 +35,60 @@ body {
 	align-items: center;
 }
 
+.fix-button {
+	background: var(--color-maltesse);
+	font-size: 1em;
+	color: var(--color-creme);
+	border: none;
+	padding: 0.7em 0;
+	cursor: pointer;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	font-weight: 500;
+	border-radius: 0.5rem;
+}
+.fix-button:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: var(--color-preto);
+	-webkit-transform: scaleY(0);
+	transform: scaleY(0);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	border-radius: 0.5rem;
+}
+.fix-button:hover, .fix-button:focus, .fix-button:active {
+	color: var(--color-maltesse);
+	border: solid 1px var(--color-maltesse);
+	border-radius: 0.5rem;
+}
+.fix-button:hover:before, .fix-button:focus:before, .fix-button:active:before {
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+	-webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+	transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+	border-radius: 0.5rem;
+}
+
 .div-size {
 	min-height: 480px;
 	min-width: 300px;
@@ -79,6 +133,18 @@ body {
 }
 div.login-logout-tab div.card-header {
 	padding: 0px 0px 12px 0px;
+}
+
+.group{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.fix-button {
+	min-width: 300px;
 }
 
 div.login-logout-tab ul.nav-tabs {
@@ -180,12 +246,10 @@ div.row div.col-md-6 form button {
 	margin: 1rem;
 	border: 2px solid transparent;
 } */
-.loginCadastro__btn {
-	background: var(--color-maltesse);
-	color: var(--color-bg);
-	font-weight: 500;
-	border-radius: 0.5rem;
-}
+/*.loginCadastro__btn {*/
+/*	font-weight: 500;*/
+/*	border-radius: 0.5rem;*/
+/*}*/
 /*login form*/
 div.login-form-icon {
 	text-align: center;

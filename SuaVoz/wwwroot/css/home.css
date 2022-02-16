@@ -315,10 +315,12 @@
 	transition-duration: 0.5s;
 	-webkit-transition-timing-function: ease-out;
 	transition-timing-function: ease-out;
+	border-radius: 0.5rem;
 }
 .carousel--button:hover .hover__cta, .carousel--button:focus .hover__cta, .carousel--button:active .hover__cta{
 	color: var(--color-maltesse);
 	font-weight: 700;
+	border-radius: 0.5rem;
 }
 .carousel--button:hover:before, .carousel--button:focus:before, .carousel--button:active:before {
 	-webkit-transform: scaleY(1);
