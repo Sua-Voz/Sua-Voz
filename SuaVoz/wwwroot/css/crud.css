@@ -35,6 +35,13 @@ body {
 	align-items: center;
 }
 
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 .fix-button {
 	background: var(--color-maltesse);
 	font-size: 1em;
@@ -90,7 +97,7 @@ body {
 }
 
 .div-size {
-	min-height: 480px;
+	max-height: 460px;
 	min-width: 300px;
 	display: flex;
 	flex-direction: column;
@@ -100,13 +107,13 @@ body {
 	margin-top: 0;
 }
 
-.form-control {
+.input-control {
 	background-color: transparent;
 	border: none;
 	border-bottom: solid 1px black;
 }
 
-.form-control:focus {
+.input-control:focus {
 	background-color: transparent;
 }
 
@@ -126,6 +133,8 @@ body {
 	width: 550px;
 	min-width: 250px;
 	overflow: hidden;
+	max-height: 565px;
+	min-height: 565px;
 }
 .card-header {
 	border: none;
@@ -141,6 +150,10 @@ div.login-logout-tab div.card-header {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+}
+
+.group p {
+	text-align: center;
 }
 
 .fix-button {
@@ -188,7 +201,7 @@ ul.flex-column li.nav-item a.nav-link {
 div.col-md-9 h4,
 div.col-md-9 h5,
 div.col-md-9 a {
-	color: var(--color-bg);
+	color: var(--color-creme) !important;
 }
 
 #reset-authenticator,

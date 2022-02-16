@@ -15,15 +15,15 @@
             @* <div asp-validation-summary="All" class="text-danger"></div> *@
             <div class="form-group">
                 <label asp-for="Input.Email" class="loginCadastro__label"></label>
-                <input asp-for="Input.Email" class="form-control" />
+                <input asp-for="Input.Email" class="input-control form-control" />
                 <span asp-validation-for="Input.Email" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group" >              
                 <label asp-for="Input.Password" class="loginCadastro__label">Senha</label>
-                <input asp-for="Input.Password" class="form-control" />
+                <input asp-for="Input.Password" class="input-control form-control" />
                 <span asp-validation-for="Input.Password" class="text-danger"></span>
             </div>
-            <div class="form-group">
+            <div class="form-group">                
                 <div class="checkbox">
                     <label asp-for="Input.RememberMe" class="loginCadastro__label">
                         <input asp-for="Input.RememberMe" />
@@ -31,9 +31,7 @@
                     </label>
                 </div>
             </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-block fix-button">Entrar</button>
-            </div>
+            <button type="submit" class="btn btn-block fix-button">Entrar</button>
         </form>
     </section>
 </div>

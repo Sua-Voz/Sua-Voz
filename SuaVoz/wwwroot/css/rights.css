@@ -31,7 +31,7 @@
 
 .direitosHero__content {
 	display: flex;
-	flex: wrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
@@ -267,6 +267,13 @@
 	transition: height 0.4s;
 	margin-bottom: 0 !important;
 }
+
+@media (min-width: 2400px) {
+	.direitosHero__content {
+		align-items: flex-start;
+	}
+}
+
 @media (max-width: 600px) {
 	.modal-body h3 {
 		font-size: 1.5rem;
@@ -289,3 +296,5 @@
 		font-size: 1.5rem;
 	}
 }
+
+

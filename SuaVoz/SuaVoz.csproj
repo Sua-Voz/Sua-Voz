@@ -8,6 +8,7 @@
     <Content Remove="Views\Shared\Index.cshtml" />
     <Content Remove="Views\Shared\View.cshtml" />
     <Content Remove="Views\Shared\_Layout - Copia.cshtml" />
+    <Content Remove="wwwroot\img\bootstrap-5.1.3-examples.zip" />
   </ItemGroup>
 
   <ItemGroup>
