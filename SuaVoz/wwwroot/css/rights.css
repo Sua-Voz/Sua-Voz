@@ -12,7 +12,6 @@
 	--color-creme: #fbf2c0;
 	--color-maltesse: #bf8069;
 	--color-roxo: #400135;
-	/* --color-preto2: #261f1d; */
 }
 * {
 	box-sizing: border-box;
@@ -48,7 +47,6 @@
 	padding: 2rem 0;
 }
 
-/* Direitos Content */
 
 .direitos__content {
 	background: var(--color-bg);
@@ -82,8 +80,6 @@
 }
 .direitosBodys_card {
 	box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.7);
-	/* -webkit-box-shadow: 1px 1px 10px 0px rgba(255, 255, 255, 0.3);
-	-moz-box-shadow: 1px 1px 10px 0px rgba(255, 255, 255, 0.3); */
 	border-radius: 2rem;
 	width: 330px;
 	height: 360px;
@@ -93,10 +89,7 @@
 	box-shadow: #261f1d;
 }
 
-/* .direitosBodys_card-img {
-	border-radius: 2rem;
-	
-} */
+
 .direitosBodys_card-img img {
 	width: 100%;
 	height: 200px;
@@ -187,15 +180,7 @@
 	border-radius: 3rem;
 }
 
-/*.direitosBodys_card-btn:hover {*/
-/*	border-color: var(--color-bg);*/
-/*	background: var(--color-preto);*/
-/*	border-color: var(--color-bg);*/
-/*	color: var(--color-bg);*/
-/*	font-weight: bold;*/
-/*}*/
 
-/* Modal */
 .modal-content {
 	background-color: #bf8069;
 }
@@ -249,7 +234,6 @@
 .questions_title {
 	cursor: pointer;
 	font-size: 1.3rem;
-	/* font-weight: 600; */
 	display: flex;
 	padding: 20px 0 15px;
 	cursor: pointer;

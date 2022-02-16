@@ -199,7 +199,7 @@ div.login-logout-tab a.nav-link {
 div.card-content {
 	padding: 10px 20px;
 }
-/* Button Gerenciamento de perfil */
+
 ul.flex-column li.nav-item a.nav-link {
 	color: var(--color-bg);
 	font-weight: 500;
@@ -230,15 +230,12 @@ div.form-group {
 	margin-bottom: 1rem;
 }
 
-/* Enable Colors */
 ol.list li {
 	color: var(--color-bg);
 }
 
-/* button  */
 
 div.form-group button {
-	/* padding: 0.5rem 0; */
 	background: var(--color-maltesse);
 	color: var(--color-bg);
 
