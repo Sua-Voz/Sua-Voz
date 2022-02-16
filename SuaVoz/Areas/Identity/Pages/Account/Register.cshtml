@@ -5,49 +5,53 @@
     Layout = "/Areas/Identity/Pages/_AuthLayout.cshtml";
 }
 
-
 <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+    <div class="div-size">
     @* <div asp-validation-summary="All" class="text-danger"></div> *@
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
             <div class="form-group">
                 <label asp-for="Input.Nome" class="loginCadastro__label"></label>
-                <input asp-for="Input.Nome" class="form-control" />
+                <input asp-for="Input.Nome" class="form-control"/>
                 <span asp-validation-for="Input.Nome" class="text-danger"></span>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
             <div class="form-group">
                 <label asp-for="Input.Sobrenome" class="loginCadastro__label"></label>
-                <input asp-for="Input.Sobrenome" class="form-control" />
+                <input asp-for="Input.Sobrenome" class="form-control"/>
                 <span asp-validation-for="Input.Sobrenome" class="text-danger"></span>
             </div>
         </div>
     </div>
-    <div class="form-group">
-        <label asp-for="Input.Email" class="loginCadastro__label"></label>
-        <input asp-for="Input.Email" class="form-control" />
-        <span asp-validation-for="Input.Email" class="text-danger"></span>
+    <div class="col-md-12">
+            <div class="form-group">
+                <label asp-for="Input.Email" class="loginCadastro__label"></label>
+                <input asp-for="Input.Email" class="form-control"/>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
     </div>
     <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
             <div class="form-group">
                 <label asp-for="Input.Password" class="loginCadastro__label">Senha</label>
-                <input asp-for="Input.Password" class="form-control" />
+                <input asp-for="Input.Password" class="form-control"/>
                 <span asp-validation-for="Input.Password" class="text-danger"></span>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-12">
             <div class="form-group">
                 <label asp-for="Input.ConfirmPassword" class="loginCadastro__label">Confirmar senha</label>
-                <input asp-for="Input.ConfirmPassword" class="form-control" />
+                <input asp-for="Input.ConfirmPassword" class="form-control"/>
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
         </div>
     </div>
-    <p>Para maiores informações acesse nossa <a asp-area="" asp-controller="Home" asp-action="Privacy">Política de
+    <p>Para maiores informações acesse nossa
+        <a asp-area="" asp-controller="Home" asp-action="Privacy">Política de
             Privacidade</a> e nossos <a asp-area="" asp-controller="Home" asp-action="Termos">Termos de Uso</a>.</p>
     <button type="submit" class="btn btn-block loginCadastro__btn">Criar Conta</button>
+    </div>
 </form>
 
 
