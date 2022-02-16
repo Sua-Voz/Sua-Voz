@@ -31,7 +31,6 @@
 
 .direitosHero__content {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 }
@@ -268,9 +267,10 @@
 	margin-bottom: 0 !important;
 }
 
-@media (min-width: 2400px) {
+@media (min-width: 2000px) {
 	.direitosHero__content {
 		align-items: flex-start;
+		padding-top: 30px !important;
 	}
 }
 

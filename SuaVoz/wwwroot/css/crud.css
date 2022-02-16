@@ -35,6 +35,14 @@ body {
 	align-items: center;
 }
 
+.login-form-icon {
+	margin-top: 30px;
+}
+
+#account {
+	padding-top: 50px;
+}
+
 form {
 	display: flex;
 	flex-direction: column;
@@ -198,9 +206,9 @@ ul.flex-column li.nav-item a.nav-link {
 	font-size: 1.2rem;
 }
 
-div.col-md-9 h4,
-div.col-md-9 h5,
-div.col-md-9 a {
+div.col-md-8 h4,
+div.col-md-8 h5,
+div.col-md-8 a {
 	color: var(--color-creme) !important;
 }
 
@@ -252,18 +260,16 @@ div.row div.col-md-6 form button {
 	border: 2px solid transparent;
 }
 
-/* .btn-primary {
-	background: var(--color-bg);
-	color: var(--color-preto) !important;
-	font-weight: 500;
-	margin: 1rem;
-	border: 2px solid transparent;
-} */
-/*.loginCadastro__btn {*/
-/*	font-weight: 500;*/
-/*	border-radius: 0.5rem;*/
-/*}*/
-/*login form*/
 div.login-form-icon {
 	text-align: center;
+}
+
+@media (max-width: 600px) {
+	.loginCadastro__card {
+		width: 100%;
+		min-height: 580px;
+	}
+	.group p {
+		margin-bottom: 3px;
+	}
 }
