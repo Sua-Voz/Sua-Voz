@@ -25,7 +25,7 @@ body {
 	height: 100vh;
 }
 .main {
-	margin-top: 75px;
+	margin-top: 40px;
 	padding: 2rem 0;
 	background: var(--color-preto);
 	height: 100vh;
@@ -33,6 +33,27 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.div-size {
+	min-height: 480px;
+	min-width: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 0;
+}
+
+.form-control {
+	background-color: transparent;
+	border: none;
+	border-bottom: solid 1px black;
+}
+
+.form-control:focus {
+	background-color: transparent;
 }
 
 .loginCadastro__label {
@@ -71,10 +92,10 @@ div.login-logout-tab li.nav-item {
 }
 
 div.login-logout-tab a.nav-link {
-	background: var(--color-bg);
+	background: var(--color-maltesse);
 	font-size: 1.2rem;
 	font-weight: 600;
-	color: var(--color-maltesse);
+	color: var(--color-creme);
 	text-align: center;
 	outline: none;
 	display: grid;
@@ -83,8 +104,8 @@ div.login-logout-tab a.nav-link {
 }
 
 .nav-link.active {
-	background: var(--color-maltesse) !important;
-	color: var(--color-bg) !important;
+	background: var(--color-creme) !important;
+	color: var(--color-maltesse) !important;
 	border: none;
 	outline: none;
 }

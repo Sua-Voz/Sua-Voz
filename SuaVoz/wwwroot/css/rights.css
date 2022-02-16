@@ -123,23 +123,78 @@
 	padding: 0 1rem;
 }
 
-.direitosBodys_card-btn {
-	text-decoration: none;
-	border: 3px solid transparent;
-	border-radius: 3rem;
+.card-btn {
 	background: var(--color-bg);
-	color: var(--color-preto);
+	font-size: 1em;
+	border: 3px solid transparent;
 	padding: 0.6rem 1rem;
+	cursor: pointer;
 	margin-top: 1rem;
+	font-weight: 600;
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	position: relative;
+	-webkit-transition-property: color;
+	transition-property: color;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	border-radius: 3rem;
 }
 
-.direitosBodys_card-btn:hover {
+.card-btn:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: var(--color-preto);
+	-webkit-transform: scaleY(0);
+	transform: scaleY(0);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+	border-radius: 3rem;
+}
+
+.card-btn:hover .direitosBodys_card-btn, .card-btn:focus .direitosBodys_card-btn, .card-btn:active .direitosBodys_card-btn{
 	border-color: var(--color-bg);
 	background: var(--color-preto);
-	border-color: var(--color-bg);
-	color: var(--color-bg);
+	color: var(--color-creme);
 	font-weight: bold;
+	border-radius: 3rem;
 }
+
+.card-btn:hover:before, .card-btn:focus:before, .card-btn:active:before {
+	-webkit-transform: scaleY(1);
+	transform: scaleY(1);
+	-webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+	transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+	border-radius: 3rem;
+}
+
+.direitosBodys_card-btn {
+	text-decoration: none;
+	color: var(--color-preto);
+	border-radius: 3rem;
+}
+
+/*.direitosBodys_card-btn:hover {*/
+/*	border-color: var(--color-bg);*/
+/*	background: var(--color-preto);*/
+/*	border-color: var(--color-bg);*/
+/*	color: var(--color-bg);*/
+/*	font-weight: bold;*/
+/*}*/
 
 /* Modal */
 .modal-content {
