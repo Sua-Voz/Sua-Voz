@@ -1,11 +1,11 @@
 <div align="center">
  
-<img  width="800"  alt="SantanderCoders" justify-content="center" src="https://newsga.recode.org.br/assets/img/logo-recode-azul.png">
+<img  width="800"  alt="Recode" justify-content="center" src="https://newsga.recode.org.br/assets/img/logo-recode-azul.png">
   
    <br>
    <br>
   
-<img  alt="SantanderCoders" justify-content="center" src="https://github.com/FeGustavo07/siteAgenciaDeViagens/blob/main/imagens/suaVoz-bege.png">
+<img  alt="Sua voz" justify-content="center" src="https://github.com/FeGustavo07/siteAgenciaDeViagens/blob/main/imagens/suaVoz-bege.png">
   
    <br>
    <br>
@@ -15,7 +15,7 @@
 </div>
 
 <div>
-<h3> <img alt="Java Icon" height="30" width="30" src="https://github.com/FeGustavo07/siteAgenciaDeViagens/blob/main/imagens/favicon.png"> O Projeto </h3>
+<h3> O Projeto </h3> 
 <p>
   A plataforma "SUA VOZ", surge a partir da discussão de seis jovens estudantes, 
   que buscam uma solução tecnológica para que a população negra seja atendida partindo da discriminação racial enfrentada por eles.
@@ -33,7 +33,7 @@ O "SUA VOZ" tem como objetivo levar as denúncias aos órgãos competentes e tra
   
   #
   
-<h4> Resumo Tecnico </h4>
+<h3> Resumo Tecnico </h3>
   
 > Autenticação com cadastro e login </br>
 > CRUD de denúncias </br>
