@@ -5,7 +5,7 @@
    <br>
    <br>
   
-<img  alt="Sua voz" justify-content="center" src="https://raw.githubusercontent.com/FeGustavo07/siteAgenciaDeViagens/main/imagens/suaVoz-bege.png?token=GHSAT0AAAAAABRFDCRQXJIRTQGLRXNLNRHCYSLBTGQ">
+<img  alt="Sua voz" justify-content="center" src="https://pbs.twimg.com/media/FPgrCBqWQAc8k1B?format=png&name=240x240">
   
    <br>
    <br>
