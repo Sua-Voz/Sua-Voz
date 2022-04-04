@@ -1,13 +1,21 @@
-<div align="center"> 
-  <img  width="800" alt="SantanderCoders" justify-content="center" src="https://newsga.recode.org.br/assets/img/logo-recode-azul.png">
-  <h1>  Sua Voz  </h1>
-   <img  width="800" alt="SantanderCoders" justify-content="center" src="/home/gustavo/Documents/projeto_sua_voz/SuaVoz/SuaVoz/wwwroot/img/suaVoz-maltesse.png">
+<div align="center">
+ 
+<img  width="800"  alt="SantanderCoders" justify-content="center" src="https://newsga.recode.org.br/assets/img/logo-recode-azul.png">
+  
+   <br>
+   <br>
+  
+<img  alt="SantanderCoders" justify-content="center" src="https://github.com/FeGustavo07/siteAgenciaDeViagens/blob/main/imagens/suaVoz-bege.png">
+  
+   <br>
+   <br>
+
 
   <p>Projeto do <strong>Squad 14</strong> desenvolvido no curso Recode Pro</p>
 </div>
 
 <div>
-<h3> <img alt="Java Icon" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-plain.svg"> O Projeto </h3>
+<h3> <img alt="Java Icon" height="30" width="30" src="https://github.com/FeGustavo07/siteAgenciaDeViagens/blob/main/imagens/favicon.png"> O Projeto </h3>
 <p>
   A plataforma "SUA VOZ", surge a partir da discussão de seis jovens estudantes, 
   que buscam uma solução tecnológica para que a população negra seja atendida partindo da discriminação racial enfrentada por eles.
