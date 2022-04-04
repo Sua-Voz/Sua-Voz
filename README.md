@@ -1,6 +1,8 @@
 <div align="center"> 
   <img  width="800" alt="SantanderCoders" justify-content="center" src="https://newsga.recode.org.br/assets/img/logo-recode-azul.png">
   <h1>  Sua Voz  </h1>
+   <img  width="800" alt="SantanderCoders" justify-content="center" src="/home/gustavo/Documents/projeto_sua_voz/SuaVoz/SuaVoz/wwwroot/img/suaVoz-maltesse.png">
+
   <p>Projeto do <strong>Squad 14</strong> desenvolvido no curso Recode Pro</p>
 </div>
 
